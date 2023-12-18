@@ -1,0 +1,149 @@
+/* Yüz Temizleme Jelleri */
+section .yuzTemizlemeJelleri{
+    background-image: url('../img/banner/yuzTemizlemeJelleri.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 10rem;
+    color: #fff;
+    position: relative;
+}
+
+section .yuzTemizlemeJelleri::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(156, 152, 152, 0.4)
+}
+
+section .yuzTemizlemeJelleri *{
+    z-index: 5;
+}
+
+/* Tonikler */
+section .tonikler{
+    background-image: url('../img/banner/tonikler.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 10rem;
+    color: #fff;
+    position: relative;
+}
+
+section .tonikler::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(156, 152, 152, 0.4)
+}
+
+section .tonikler *{
+    z-index: 5;
+}
+
+/* Serumlar */
+section .serumlar{
+    background-image: url('../img/banner/serumlar.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 10rem;
+    color: #fff;
+    position: relative;
+}
+
+section .serumlar::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(156, 152, 152, 0.4)
+}
+
+section .serumlar *{
+    z-index: 5;
+}
+
+/* Nemlendiriciler */
+section .nemlendiriciler{
+    background-image: url('../img/banner/nemlendiriciler.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 10rem;
+    color: #fff;
+    position: relative;
+}
+
+section .nemlendiriciler::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(156, 152, 152, 0.4)
+}
+
+section .nemlendiriciler *{
+    z-index: 5;
+}
+
+/* Güneş Kremleri */
+section .gunesKremleri{
+    background-image: url('../img/banner/gunesKremi.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 10rem;
+    color: #fff;
+    position: relative;
+}
+
+section .gunesKremleri::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(156, 152, 152, 0.4)
+}
+
+section .gunesKremleri *{
+    z-index: 5;
+}
+
+/* Maskeler */
+section .maskeler{
+    background-image: url('../img/banner/yuzMaskeleri.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 10rem;
+    color: #000;
+    position: relative;
+}
+
+section .maskeler::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(156, 152, 152, 0.4)
+}
+
+section .maskeler *{
+    z-index: 5;
+}
